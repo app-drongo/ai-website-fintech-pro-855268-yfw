@@ -9,40 +9,40 @@ import { useState, useEffect } from 'react';
 import { useSmartNavigation } from '@/hooks/useSmartNavigation';
 
 const DEFAULT_HERO = {
-  eyebrow: 'Trusted by Fortune 500 Companies',
-  title: 'The Future of Corporate Finance is Here',
+  eyebrow: 'Trusted by 500+ Financial Institutions',
+  title: 'Transform Your Financial Operations with AI-Powered Intelligence',
   subtitle:
-    'Revolutionize your financial operations with AI-powered insights, automated workflows, and enterprise-grade security. Join 15,000+ companies already transforming their finance departments.',
-  primaryCtaText: 'Start Your Transformation',
+    'Streamline complex financial processes, reduce operational costs by 40%, and ensure regulatory compliance with our enterprise-grade platform. Join leading banks and investment firms already revolutionizing their finance operations.',
+  primaryCtaText: 'Get Started Today',
   primaryCtaHref: '/get-started',
-  secondaryCtaText: 'Schedule Demo',
-  secondaryCtaHref: '/demo',
+  secondaryCtaText: 'Book Consultation',
+  secondaryCtaHref: '/consultation',
   heroImageUrl:
-    'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2426&q=80',
-  heroImageAlt: 'Modern financial dashboard with real-time analytics',
+    'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=2426&q=80',
+  heroImageAlt: 'Advanced financial analytics dashboard with real-time market data',
   trustLogos: [
     {
-      name: 'Microsoft',
-      url: 'https://images.unsplash.com/photo-1633409361618-c73427e4e206?w=120&h=60&fit=crop',
-    },
-    {
-      name: 'Goldman Sachs',
+      name: 'Deutsche Bank',
       url: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=120&h=60&fit=crop',
     },
     {
-      name: 'JPMorgan',
+      name: 'Credit Suisse',
       url: 'https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=120&h=60&fit=crop',
+    },
+    {
+      name: 'Morgan Stanley',
+      url: 'https://images.unsplash.com/photo-1633409361618-c73427e4e206?w=120&h=60&fit=crop',
     },
   ],
   keyMetrics: [
-    { value: '99.9%', label: 'Uptime SLA', icon: 'Shield' },
-    { value: '2.5x', label: 'Faster Processing', icon: 'Zap' },
-    { value: '15K+', label: 'Active Users', icon: 'Users' },
+    { value: '99.99%', label: 'System Reliability', icon: 'Shield' },
+    { value: '40%', label: 'Cost Reduction', icon: 'TrendingUp' },
+    { value: '500+', label: 'Enterprise Clients', icon: 'Users' },
   ],
   benefits: [
-    'Real-time financial reporting',
-    'Automated compliance monitoring',
-    'Advanced fraud detection',
+    'Automated regulatory reporting and compliance',
+    'Real-time risk assessment and monitoring',
+    'AI-driven financial forecasting and analytics',
   ],
 } as const;
 

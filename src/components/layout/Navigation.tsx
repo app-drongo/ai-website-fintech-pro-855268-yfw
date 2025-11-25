@@ -7,13 +7,13 @@ import { useState } from 'react';
 import { useSmartNavigation } from '@/hooks/useSmartNavigation';
 
 const DEFAULT_NAVIGATION = {
-  logo: 'FinTech Pro',
+  logo: 'FinanceFlow',
   logoHref: '/',
   navItems: [
     { label: 'Home', href: '#hero' },
     { label: 'Pricing', href: '#pricing' },
   ],
-  ctaText: 'Get Started',
+  ctaText: 'Start Free Trial',
   ctaHref: '#pricing',
   mobileMenuLabel: 'Open navigation menu',
   closeMenuLabel: 'Close navigation menu',
