@@ -9,40 +9,40 @@ import { useState, useEffect } from 'react';
 import { useSmartNavigation } from '@/hooks/useSmartNavigation';
 
 const DEFAULT_HERO = {
-  eyebrow: 'Trusted by 500+ Financial Institutions',
-  title: 'Transform Your Financial Operations with AI-Powered Intelligence',
+  eyebrow: 'Trusted by 1,000+ Financial Institutions Worldwide',
+  title: 'Next-Generation Financial Intelligence Platform',
   subtitle:
-    'Streamline complex financial processes, reduce operational costs by 40%, and ensure regulatory compliance with our enterprise-grade platform. Join leading banks and investment firms already revolutionizing their finance operations.',
-  primaryCtaText: 'Get Started Today',
-  primaryCtaHref: '/get-started',
-  secondaryCtaText: 'Book Consultation',
-  secondaryCtaHref: '/consultation',
+    'Revolutionize your financial operations with AI-powered automation, advanced analytics, and enterprise-grade security. Reduce operational costs by up to 45% while ensuring complete regulatory compliance across all markets.',
+  primaryCtaText: 'Start Free Trial',
+  primaryCtaHref: '/free-trial',
+  secondaryCtaText: 'Schedule Demo',
+  secondaryCtaHref: '/demo',
   heroImageUrl:
     'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=2426&q=80',
-  heroImageAlt: 'Advanced financial analytics dashboard with real-time market data',
+  heroImageAlt: 'Advanced financial analytics dashboard with real-time market data and AI insights',
   trustLogos: [
     {
-      name: 'Deutsche Bank',
+      name: 'JPMorgan Chase',
       url: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=120&h=60&fit=crop',
     },
     {
-      name: 'Credit Suisse',
+      name: 'Goldman Sachs',
       url: 'https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=120&h=60&fit=crop',
     },
     {
-      name: 'Morgan Stanley',
+      name: 'BlackRock',
       url: 'https://images.unsplash.com/photo-1633409361618-c73427e4e206?w=120&h=60&fit=crop',
     },
   ],
   keyMetrics: [
-    { value: '99.99%', label: 'System Reliability', icon: 'Shield' },
-    { value: '40%', label: 'Cost Reduction', icon: 'TrendingUp' },
-    { value: '500+', label: 'Enterprise Clients', icon: 'Users' },
+    { value: '99.9%', label: 'Uptime Guarantee', icon: 'Shield' },
+    { value: '45%', label: 'Cost Savings', icon: 'TrendingUp' },
+    { value: '1,000+', label: 'Global Clients', icon: 'Users' },
   ],
   benefits: [
-    'Automated regulatory reporting and compliance',
-    'Real-time risk assessment and monitoring',
-    'AI-driven financial forecasting and analytics',
+    'Automated compliance reporting across 50+ jurisdictions',
+    'Real-time fraud detection and risk monitoring',
+    'AI-powered portfolio optimization and forecasting',
   ],
 } as const;
 
